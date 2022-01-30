@@ -1,0 +1,141 @@
+@import "null.css";
+/* ============================================================================================================================= */
+/*====== Подключаемые Шрифты======= */
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
+
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster-Regular.woff2') format("woff2"), url('../fonts/Lobster-Regular.woff') format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Comfortaa';
+	src: url('../fonts/Comfortaa-Bold.woff2') format("woff2"), url("../fonts/Comfortaa-Bold.woff") format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Comfortaa';
+	src: url('../fonts/Comfortaa-Medium.woff2') format('woff2'), url('../fonts/Comfortaa-Medium.woff') format('woff');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'CormorantInfant';
+	src: url('../fonts/CormorantInfant-SemiBoldItalic.woff2') format('woff2'), url('../fonts/CormorantInfant-SemiBoldItalic.woff') format('woff');
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: 'Pacifico';
+	src: url('../fonts/Pacifico-Regular.woff2') format('woff2'), url('../fonts/Pacifico-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: 'ReggaeOne';
+	src: url('../fonts/ReggaeOne-Regular.woff2') format('woff2'), url('../fonts/ReggaeOne-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+/*====================================== */
+
+
+body{
+	font-family: 'Lobster', cursive;
+}
+
+h1{
+	font-family: "Neonderthaw",cursive;
+	font-size: 53px;
+	color: rgb(211, 4, 159);
+	text-decoration: underline;
+	text-shadow: 10px 10px 15px rgb(236, 8, 8),15px 15px 20px rgb(209, 8, 236);
+	text-align: center;
+}
+
+.title {
+	font-family: 'Comforter', cursive;
+	font-size: 50px;
+	text-align: center;
+	text-transform: capitalize;
+	/* text-decoration: underline; */
+	color: rgb(96, 80, 247);
+	text-shadow: 5px -5px 5px rgb(88, 113, 223), 10px -10px 5px rgb(180, 123, 226),15px -15px 5px rgb(235, 91, 227);
+}
+.introduction {
+	font-family: 'Lobster',cursive;
+	font-size: 23px;
+	text-transform: capitalize;
+	text-align: left;
+}
+h3{
+	color: rgba(7, 216, 7, 0.788);
+	font-family: 'Comfortaa';
+	font-weight: 700;
+	font-size: 35px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px rgb(65, 62, 62);
+}
+.text {
+	color: rgb(80, 65, 95);
+	font-size: 20px;
+	line-height: 1.2;
+	
+}
+.font-1 {
+	font-family: 'Caveat',cursive;
+	text-shadow: 2px 2px 5px rgba(255, 230, 9, 0.829);
+	font-size: 25px;
+	line-height: 1;
+}
+.font-2 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	text-shadow: 2px 2px 5px rgba(9, 87, 255, 0.74);
+}
+.font-3 {
+	font-family: 'CormorantInfant',serif;
+	font-style: italic;
+	font-weight: 600;
+	color: rgb(5, 201, 5);
+	text-shadow: 0px 1px 1px rgba(12, 12, 12, 0.74);
+}
+.font-4 {
+	font-family: 'Pacifico', cursive;
+	text-align: justify;
+}
+.font-5 {
+	font-family: 'ReggaeOne', cursive;
+}
+.footer{
+	text-align: right;
+	font-size: 25px;
+}
+.year{
+	font-family: 'Comfortaa';
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+.year+p{
+	font-family: 'Neonderthaw', cursive;
+	color: rgb(98, 2, 167);
+	text-shadow: 2px 2px 3px rgba(86, 0, 126, 0.74);
+}
